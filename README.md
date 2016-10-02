@@ -14,17 +14,47 @@ stack as it can be used for everything from web development to software developm
 
 # Prerequisites
 
-1. Open a GIT account - Link to GIT repo [site](https://github.com/)
+1. Installing Python
+.. Installing Python is generally easy, and most of the time many Linux and UNIX distributions include a recent Python. 
+.. If you do need to install Python and aren't confident about the task you can find a few notes on the [Windows-link](../master/windows-installation.md). 
 
-2. ###### Installing
-   ⋅⋅* Installing Python is generally easy, and most of the time many Linux and UNIX distributions include a recent Python.
-   ⋅⋅* If you do need to install Python and aren't confident about the task you can find a few notes on the [Windows-link](../master/windows-installation.md).
-
+2. Open a GIT account - Link to GIT repo [site](https://github.com/) ** Optional
 
 # Execute Python Programs
 
-'''python
+Interactive Mode Programming
+
+Call the interpreter without passing a script file as a parameter brings up the following prompt −
+
+```
+$ python
+```
+Type the following text at the Python prompt and press the Enter:
+
+```python
+>>> print ("Hello, Python!")
+```
+
+Script Mode Programming
+
+Call the interpreter with a script parameter begins execution of the script and continues until the script is finished. When the script is finished, the interpreter is no longer active.
+
+```python
 #!/usr/bin/python
 
 print "Hello, Python!"
-'''
+```
+
+# Identifiers
+
+# Reserved Words
+
+# Lines and Indentation
+
+# Quotation
+
+# Comments
+
+# User Input
+
+# Command Line Arguments
