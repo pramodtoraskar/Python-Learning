@@ -2,17 +2,17 @@
 
  Discovering and learning the Python Programming -- personal notes.
 
-# Introduction 
+## Introduction 
 
- Python is a general-purpose [ interpreted ](../master/interpreted-language.md), interactive, object-oriented and high-level programming language.
+ Python is a general-purpose [ interpreted ](../master/interpreted-language.md), interactive, [ object-oriented ](../master/object-oriented.md) and high-level programming language.
  It was created by [ Guido Van Rossum ](https://en.wikipedia.org/wiki/Guido_van_Rossum) during 1985-1990. Python source code is also available under the GNU General Public License (GPL).
  
-# Why learn Python?
+## Why learn Python?
 
  Python is a versatile and popular programming language. It's great as a first language because it is concise and easy to read, and it is also a good language to have in any programmer's 
  stack as it can be used for everything from web development to software development and scientific applications. 
 
-# Prerequisites
+## Prerequisites
 
  1. Installing Python
 .. Installing Python is generally easy, and most of the time many Linux and UNIX distributions include a recent Python. 
@@ -20,7 +20,7 @@
 
  2. Open a GIT account - Link to GIT repo [site](https://github.com/) ** Optional
 
-# Execute Python Programs
+## Execute Python Programs
 
  Interactive Mode Programming
 
@@ -46,7 +46,7 @@ $ python
 print "Hello, Python!"
 ```
 
-# Identifiers
+## Identifiers
 
  Is a name used to identify a variable, function, class, module or other object in python.
  Identifiers starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).
@@ -73,7 +73,7 @@ print "Hello, Python!"
      >>> __init__
 ```
 
-# Lines and Indentation
+## Lines and Indentation
  Like other programming language python doesn't use braces '{}' to locate blocks of code for class or function definitions or flow control.
  Block of code are identify by line of indentation.
   
@@ -88,7 +88,7 @@ print "Hello, Python!"
        print ("False")
 ``` 
 
-# Quotation
+## Quotation
  Python programming language accepts single ('), double (") and triple (''' or """) quotes to denote string literals, as long as the same type of quote starts and ends the string.
  
  The triple quotes are used to span the string across multiple lines. 
@@ -100,10 +100,10 @@ print "Hello, Python!"
    made up of multiple lines and sentences."""
 ```
  
-# Comments
+## Comments
  A hash sign (#) - All characters after the # and up to the end of the physical line are part of the comment and the Python interpreter ignores them.
  
-# User Input
+## User Input
   Below lines of the program displays the prompt the statement saying “Press the enter key to exit”, and waits for the user to take action −
   
 ```python
@@ -111,3 +111,6 @@ print "Hello, Python!"
 
 input("Enter the key to exit.")
 ```
+
+Here, We have completed basic system and python programming introductions. Let's see with more detailed syntax and python programming concepts. 
+**So Let's start with python [Variable Types](../master/VariableTypes/variabletypes.md)**
