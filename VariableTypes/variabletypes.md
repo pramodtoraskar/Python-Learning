@@ -92,7 +92,7 @@ print name
   print len(colors)  ## 3
 ```
 
-![alt text](../master/img/list1.png "Logo Title Text 1")
+![alt text](../img/list1.png "Logo Title Text 1")
 
 Assignment with an = on lists does not make a copy. Instead, assignment makes the two variables point to the one list in memory.
 
@@ -100,7 +100,7 @@ Assignment with an = on lists does not make a copy. Instead, assignment makes th
    b = colors   ## Does not copy the list
 ```
 
-![alt text](../master/img/list2.png "Logo Title Text 1")
+![alt text](../img/list2.png "Logo Title Text 1")
 
 The "empty list" is just an empty pair of brackets [ ]. The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4] (this is just like + with strings).
 
@@ -266,7 +266,7 @@ Looking up or setting a value in a dict uses square brackets, e.g. dict['foo'] l
   print dict.get('z')  ## None (instead of KeyError)
 ```
 
-![alt text](../master/img/dict.png "Logo Title Text 1")
+![alt text](../img/dict.png "Logo Title Text 1")
 
  A for loop on a dictionary iterates over its keys by default. The keys will appear in an arbitrary order. The methods dict.keys() and dict.values() return lists of the keys or values explicitly. There's also an items() which returns a list of (key, value) tuples, which is the most efficient way to examine all the key value data in the dictionary. All of these lists can be passed to the sorted() function.
 ```python
