@@ -92,7 +92,7 @@ print name
   print len(colors)  ## 3
 ```
 
-![alt text](../img/list1.png "Logo Title Text 1")
+![alt text](https://github.com/ptoraskar/Python-Learning/blob/master/img/list1.png "Logo Title Text 1")
 
 Assignment with an = on lists does not make a copy. Instead, assignment makes the two variables point to the one list in memory.
 
@@ -100,7 +100,7 @@ Assignment with an = on lists does not make a copy. Instead, assignment makes th
    b = colors   ## Does not copy the list
 ```
 
-![alt text](../img/list2.png "Logo Title Text 1")
+![alt text](https://github.com/ptoraskar/Python-Learning/blob/master/img/list2.png "Logo Title Text 1")
 
 The "empty list" is just an empty pair of brackets [ ]. The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4] (this is just like + with strings).
 
