@@ -334,8 +334,8 @@ Looking up or setting a value in a dict uses square brackets, e.g. dict['foo'] l
 ## Data Type Conversion
  There are several built-in functions to perform conversion from one data type to another. These functions return a new object representing the converted value.
  
- |    Function	         |                                 Description                            |
- | --------------------  |:----------------------------------------------------------------------:|
+ |Function	             |Description                                                             |
+ |:--------------------- |:-----------------------------------------------------------------------|
  | int(x [,base])        | Converts x to an integer. base specifies the base if x is a string.    |
  | long(x [,base] )      | Converts x to a long integer. base specifies the base if x is a string.|
  | float(x)              | Converts x to a floating-point number.                                 |
