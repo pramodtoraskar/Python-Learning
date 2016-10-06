@@ -11,7 +11,7 @@
 3.  Value, types, expressions, and statements
 4.  Data types (Lists, tuples, and dictionaries)
 5.  [ Functions ](../master/ClassesnFunctions/functions.md)
-6.  Class
+6.  [ Class ](../master/ClassesnFunctions/classed.md)
 7.  Regular Expression
 8.  New style class
 9.  Decorator, Generator
