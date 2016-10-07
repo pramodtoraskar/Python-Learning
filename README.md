@@ -12,7 +12,7 @@
 4.  Data types (Lists, tuples, and dictionaries)
 5.  [ Functions ](../master/ClassesnFunctions/functions.md)
 6.  [ Class ](../master/ClassesnFunctions/classes.md)
-7.  Regular Expression
+7.  [ Regular Expression ](../master/RegularExpressions/regularexpressions.md)
 8.  New style class
 9.  Decorator, Generator
 10. Files, modules, directories and packages
