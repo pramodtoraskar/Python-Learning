@@ -37,4 +37,4 @@
 
 
 #
-[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/module-1/1_define_python.md) | [Next...](/module-1/3_understand_why_python_is_popular.md)
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-1/1_define_python.md) | [Next...](/Module-1/3_popularity_and_applications.md)
