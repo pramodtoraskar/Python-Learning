@@ -7,12 +7,12 @@ Discovering and learning the Python Programming.
 [Introduction](self_introduction.md)
 
 ### Module 1                                 
-                                                          Duration: 2hrs
+                                                          Duration: 2 hrs
 
 1.  [Define Python](/module-1/1_define_python.md)
 2.  [Overview to Python](/module-1/2_overview_to_python.md)
-3.  [Understand why Python is Popular
-4.  [Setup Python Environment
+3.  [Understand why Python is Popular](/module-1/3_understand_why_python_is_popular.md)
+4.  [Setup Python Environment](/module-1/4_setup_python_environment.md)
 5.  [Understand Operands and Expressions
 6.  [The Companies Using Python
 7.  [Different Applications where Python is Used

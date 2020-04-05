@@ -14,6 +14,18 @@
   - Python is Object-Oriented
   - Python is a Beginner's Language
 
+### Python Features
+
+- Easy-to-learn
+- Easy-to-read
+- Easy-to-maintain
+- Interactive Mode
+- Portable
+- Extendable
+- Databases
+- GUI Programming
+- Scalable
+
 - Python is often described as a "batteries included" language due to its comprehensive 
   [standard library](https://pypi.org/).
 
@@ -24,18 +36,5 @@
     and international community of Python programmers.
 
 
-### Python Features
-
-- Easy-to-learn
-- Easy-to-read
-- Easy-to-maintain
-- A broad standard library
-- Interactive Mode
-- Portable
-- Extendable
-- Databases
-- GUI Programming
-- Scalable
-
 #
-[Main...](README.md) | [Back...](/module-1/1_define_python.md) | [Next...](/module-1/2_overview_to_python.md)
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/module-1/1_define_python.md) | [Next...](/module-1/2_overview_to_python.md)

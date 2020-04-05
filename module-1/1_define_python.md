@@ -26,4 +26,4 @@
   - .pyw,.pyz (since 3.5)
 
 #
-[Back...](README.md) | [Next...](/module-1/2_overview_to_python.md)
+[Back...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/module-1/2_overview_to_python.md)
