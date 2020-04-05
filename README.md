@@ -23,4 +23,3 @@ Discovering and learning the Python Programming.
 12. [Command Line Arguments](/Module-1/7_command_line_and_python_program.md)
 13. [Writing to the screen](/Module-1/7_command_line_and_python_program.md)
 14. [Write your First Python Program](/Module-1/7_command_line_and_python_program.md)
-15. [Understand Command Line Parameters and FLow Control](/Module-1/7_command_line_and_python_program.md)
