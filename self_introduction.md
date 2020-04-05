@@ -4,13 +4,13 @@
 ### Principal Data Engineer | Marketing Technology & Operations (MTO), Red Hat.
 
 ![test image size](/img/myself.jpg){:height="50%" width="50%"}
-![test image size](/img/myself.jpg){:height="700px" width="400px"}
+![test image size](/img/myself.jpg | width=100 height=200)
 
 ### Vision
 
-Helps organization to automate various data processes and business cases of Marketing
-Infrastructure, So the organization can empower marketers to drive measurable business 
-impact by engaging our customers wherever they are in their journey.
+Helps organization to automate various data processes and business cases of Marketing Infrastructure, 
+So the organization can empower marketers to drive measurable business impact by engaging our customers wherever 
+they are in their journey.
 
 > GitHub  : https://github.com/ptoraskar
 
