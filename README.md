@@ -23,3 +23,7 @@ Discovering and learning the Python Programming.
 12. [Command Line Arguments](/Module-1/7_command_line_and_python_program.md)
 13. [Writing to the screen](/Module-1/7_command_line_and_python_program.md)
 14. [Write your First Python Program](/Module-1/7_command_line_and_python_program.md)
+
+
+### Bonus Module
+1. [GIT](/Module-6/1_introduction_git.md)
