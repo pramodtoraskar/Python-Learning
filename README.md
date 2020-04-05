@@ -4,7 +4,7 @@
 
 Discovering and learning the Python Programming.
 
-[Introduction](self_introduction.md)
+[Introduction](Introduction.md)
 
 ### Module 1                                 
                                                           Duration: 2 hrs
