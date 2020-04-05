@@ -103,6 +103,7 @@
         ```python
            print("Hello")
         ```
+        [Example Script 1: m1-script1.py](Examples/Module-1/m1-script1.py)
     
     - Script from the Command-line
     
@@ -110,7 +111,7 @@
 
         ```bash
 
-            $ python m1-script1.py # Unix/Linux
+            $ python m1-script1.py# Unix/Linux
             
             or
 
@@ -121,7 +122,30 @@
             C:> python m1-script1.py # Windows/DOS     
         ```      
    
-    
+## Basic Syntax
+ 
+- Python Identifiers
+    - Python is a case sensitive programming language. 
+      - Thus, **Pandemic** and **pandemic** are two different identifiers in Python.
+
+- Reserved Words
+    - *and*, *break*, *del*, *lambda*, *is*
+
+- Lines and Indentation
+
+- Multi-Line Statements
+
+- Quotation in Python
+
+    ```html
+    word = 'RedHat'
+    sentence = "This is a Open-source Company."
+    paragraph = """This is a Open-source Company. Founded in 1993, 
+                   Red Hat has its corporate headquarters in Raleigh, North Carolina, 
+                   with other offices worldwide. It became a subsidiary of IBM on July 9, 2019."""
+    ```
+- Comments
+
 #
 [Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-1/3_popularity_and_applications.md) | [Next...](/Module-1/5_variables_to_expressions.md)
 
