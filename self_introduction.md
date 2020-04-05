@@ -4,7 +4,6 @@
 ### Principal Data Engineer | Marketing Technology & Operations (MTO), Red Hat.
 
 ![test image size](/img/myself.jpg){:height="50%" width="50%"}
-![test image size](/img/myself.jpg | width=100 height=200)
 
 ### Vision
 
