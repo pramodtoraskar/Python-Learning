@@ -2,7 +2,9 @@
 
 # Python program to illustrate Iterating over a list
 print("List Iteration")
+
 list_1 = ["geeks", "for", "geeks"]
+
 for list_ele in list_1:
     print(list_ele)
 
