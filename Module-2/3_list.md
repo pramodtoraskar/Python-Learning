@@ -50,22 +50,22 @@
     ```
  - Basic Operations
  
-    |Python Expression|Results|Description|
+    |Expression|Results|Description|
     |-----------------|-------|-----------|
     |len([1, 2, 3])|3|Length|
     |[1, 2, 3] + [4, 5, 6]|[1, 2, 3, 4, 5, 6]|Concatenation|
     |['Hi!'] * 4|['Hi!', 'Hi!', 'Hi!', 'Hi!']|Repetition|
     |3 in [1, 2, 3]|True|Membership|
-    |for x in [1, 2, 3]: print x|1 2 3|Iteration|
+    |for x in [1, 2, 3]: print(x)|1 2 3|Iteration|
 
  - Indexing, Slicing, Matrixes
     
     ```python
        list_1 = ['Berlin', 'London', 2019, 2020]   
     ```
-    |Python Expression|Results|Description|
+    |Expression|Results|Description|
     |-----------------|-------|-----------|
-    |list_1[2]|2019!|Offsets start at zero|
+    |list_1[2]|2019|Offsets start at zero|
     |list_1[-2]|2019|Negative: count from the right|
     |list_1[1:]|['London', 2019, 2020]|Slicing fetches sections|
 
@@ -93,6 +93,6 @@
     |8|list.reverse()|Reverses objects of list in place|
     |9|list.sort([func])|Sorts objects of list, use compare func if given|
  
-    [Example Script 20 - m2-script20.py](/Examples/Module-2/m2-script20.py)
+    [Example Script 21 - m2-script21.py](/Examples/Module-2/m2-script21.py)
 #
 [Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-2/2_numbers_strings_functions.md) | [Next...](/Module-2/4_tuple.md)
