@@ -1,0 +1,5 @@
+inputValues = input("input values separated by colon to be printed as list and tuple: ")
+outputList = inputValues.split(";")
+outputTuple = tuple(outputList)
+print("input as list:", outputList)
+print("input as tuple", outputTuple)
