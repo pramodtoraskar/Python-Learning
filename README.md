@@ -24,6 +24,15 @@ Discovering and learning the Python Programming.
 13. [Writing to the screen](/Module-1/7_command_line_and_python_program.md)
 14. [Write your First Python Program](/Module-1/7_command_line_and_python_program.md)
 
+### Module 2                                 
+                                                          Duration: 2 hrs
+
+1. [Python files I/O Functions](/Module-2/1_file_functions.md)
+2. [Numbers, Strings and related Operations](/Module-2/2_numbers_strings_functions.md)
+3. [List - Properties, related Operations](/Module-2/3_list.md)
+4. [Tuple - Properties, related Operations, Compared with List](/Module-2/4_tuple.md)
+5. [Dictionary - Properties, related Operations](/Module-2/5_dictionary.md)
+6. [Set - Properties, related Operations](/Module-2/6_set.md)
 
 ### Bonus Module
 1. [GIT](/Module-6/1_introduction_git.md)

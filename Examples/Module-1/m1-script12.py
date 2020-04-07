@@ -2,12 +2,14 @@
 
 # Python program to demonstrate nested-if and if-elif
 
-num_1 = 10
+num_1 = 0
 
 # Nested if to check whether num_1 number is divisible by both 2 and 5
 if num_1 % 2 == 0:
     if num_1 % 5 == 0:
         print("Number is divisible by both 2 and 5")
+    if num_1 == 0:
+        print("Number is 0")
 
     # is-elif
 if num_1 == 11:
