@@ -14,7 +14,7 @@ with open("python_learning_new.txt", "w") as fp_obj:
 
 
 # Python code to illustrate split() function
-with open("python_learning_new.text", "r") as fp_obj:
+with open("python_learning_new.txt", "r") as fp_obj:
     data = fp_obj.readlines()
     for line in data:
         word = line.split()
