@@ -3,7 +3,7 @@
 
 ## Modules and Packages
 
-####Modules
+#### Modules
  - A module allows you to logically organize your Python code
  - Grouping related code into a module makes the code easier to understand and use
  - A module is a file consisting of Python code. 
@@ -51,7 +51,7 @@
         - Python checks the default path
             > In Unix/Linux */usr/local/lib/python/*
  
-####Packages
+#### Packages
   - Packages in Python
     - A package is a hierarchical file directory structure 
     - That defines a single Python application environment that consists of modules and subpackages and sub-subpackages

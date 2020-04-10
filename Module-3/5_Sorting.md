@@ -2,7 +2,7 @@
 ![](https://www.python.org/static/img/python-logo.png)
  
 ## Sorting
-####*Sequences, Dictionaries, Limitations of Sorting*
+### [Sequences, Dictionaries, Limitations of Sorting]
 
 - Sorting Basics¶
    - A simple ascending sort is very easy

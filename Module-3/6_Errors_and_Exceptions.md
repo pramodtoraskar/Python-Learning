@@ -2,7 +2,7 @@
 ![](https://www.python.org/static/img/python-logo.png)
  
 ## Python - Exceptions Handling
-####*Types of Issues(Errors), Remediation, Exception Handling, Handling Multiple Exceptions*
+#### [Types of Issues(Errors), Remediation, Exception Handling, Handling Multiple Exceptions]
 
  - Errors and Exceptions
     - Syntax Errors

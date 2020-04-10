@@ -4,10 +4,10 @@
 ![](https://www.python.org/static/img/python-logo.png)
  
 ## Lambda
-###Features, Syntax, Options, Compared with the Functions
+### [Features, Syntax, Options, Compared with the Functions]
 
  - Anonymous function means that a function is without a name
- - **def**s keyword is used to define the normal functions
+ - **def** keyword is used to define the normal functions
  - the **lambda** keyword is used to create anonymous functions
 
     > lambda arguments: expression
