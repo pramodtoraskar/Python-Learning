@@ -132,4 +132,4 @@
         ```
   [Example Script 25 - m3-script25.py](/Examples/Module-3/m3-script25.py)
 #
-[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/Module-3/2_functions.md)
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-3/1_python_standard_libraries.md) | [Next...](/Module-3/3_Variables.md)

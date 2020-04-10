@@ -77,7 +77,6 @@ c.set_attr(200)
 c.get_attr()
 
 
-
 # Example of Overriding Methods
 # ------------------------------------------
 # Define parent class

@@ -148,8 +148,7 @@
                return False
        bool_return()
     ```
-    
     [Example Script 28 - m3-script28.py](/Examples/Module-3/m3-script28.py)    
  
 #
-[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/Module-3/2_functions.md)
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-3/5_Sorting.md) | [Next...](/Module-3/7_Object_Oriented_Concepts.md)

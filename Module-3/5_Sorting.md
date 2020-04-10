@@ -34,6 +34,5 @@
       print(sorted(student_tuples, key=lambda student: student[2]))
     
     ```
-
 #
-[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/Module-3/2_functions.md)
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](Module-3/4_Lambda.md) | [Next...](/Module-3/6_Errors_and_Exceptions.md)

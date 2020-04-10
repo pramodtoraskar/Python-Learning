@@ -80,9 +80,7 @@
       print (sum_num) 
       
     ```
-
   [Example Script 27 - m3-script27.py](/Examples/Module-3/m3-script27.py)
 
-`
 #
 [Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/Module-3/5_Sorting.md)

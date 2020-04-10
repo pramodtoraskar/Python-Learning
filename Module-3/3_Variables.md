@@ -115,4 +115,4 @@
     ```
     [Example Script 26 - m3-script26.py](/Examples/Module-3/m3-script26.py)
 #
-[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/Module-1/2_overview_to_python.md)
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-3/2_functions.md) | [Next...](/Module-3/4_Lambda.md)

@@ -44,9 +44,8 @@ Discovering and learning the Python Programming.
 5. [Sorting](/Module-3/5_Sorting.md)
 6. [Errors and Exceptions](/Module-3/6_Errors_and_Exceptions.md)
 7. [Object Oriented Concepts](/Module-3/7_Object_Oriented_Concepts.md)
-8. [Packages and Module](/Module-3/8_Packages_and_Module.md)
+8. [Modules_and_Packages](/Module-3/8_Modules_and_Packages.md)
 9. [Package Installation Ways and Import](/Module-3/9_Package_Installation_Ways_and_Import.md)
-10.[Module Search Path](/Module-3/10_Module_Search_Path.md)
 
 
 ### Bonus Module
