@@ -153,5 +153,5 @@
         ```bash
           python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-pkg-YOUR-USERNAME-HERE
         ```        
-#   
-[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Next...](/Module-3/2_functions.md)
+# 
+[Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-3/7_Object_Oriented_Concepts.md) | [Next...](/Module-3/9_Package_Installation_Ways_and_Import.md)  
