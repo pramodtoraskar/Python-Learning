@@ -6,7 +6,7 @@ Discovering and learning the Python Programming.
 
 [Introduction](Introduction.md)
 
-### Module 1                                 
+### Module 1 - Introduction to Python                                 
                                                           Duration: 2 hrs
 
 1.  [Define Python](/Module-1/1_define_python.md)
@@ -24,7 +24,7 @@ Discovering and learning the Python Programming.
 13. [Writing to the screen](/Module-1/7_command_line_and_python_program.md)
 14. [Write your First Python Program](/Module-1/7_command_line_and_python_program.md)
 
-### Module 2                                 
+### Module 2 - Sequences and File Operations                                 
                                                           Duration: 2 hrs
 
 1. [Python files I/O Functions](/Module-2/1_file_functions.md)
@@ -33,6 +33,20 @@ Discovering and learning the Python Programming.
 4. [Tuple - Properties, related Operations, Compared with List](/Module-2/4_tuple.md)
 5. [Dictionary - Properties, related Operations](/Module-2/5_dictionary.md)
 6. [Set - Properties, related Operations](/Module-2/6_set.md)
+
+### Module 3 - Deep Dive – Functions, OOPs, Modules, Errors and Exceptions                                 
+                                                          Duration: 2 hrs
+
+1. [Understand Python Standard Libraries](/Module-3/1_python_standard_libraries.md)
+2. [Functions](/Module-3/2_functions.md)
+3. [Variables](/Module-3/3_Variables.md)
+4. [Lambda](/Module-3/4_Lambda.md)
+5. [Sorting](/Module-3/5_Sorting.md)
+6. [Errors and Exceptions](/Module-3/6_Errors_and_Exceptions.md)
+7. [Object Oriented Concepts](/Module-3/7_Object_Oriented_Concepts.md)
+8. [Modules_and_Packages](/Module-3/8_Modules_and_Packages.md)
+9. [Package Installation Ways and Import](/Module-3/9_Package_Installation_Ways_and_Import.md)
+
 
 ### Bonus Module
 1. [GIT](/Module-6/1_introduction_git.md)
