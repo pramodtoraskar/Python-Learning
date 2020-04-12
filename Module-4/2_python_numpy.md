@@ -277,5 +277,6 @@
         # Print the array
         print(np_data)
         ```
-#       
+    [Example Script 32 - m2-script32.py](/Examples/Module-4/m4-script32.py)   
+#
 [Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-4/1_python_for_da_ds.md) | [Next...](/Module-4/3_python_pandas.md)
