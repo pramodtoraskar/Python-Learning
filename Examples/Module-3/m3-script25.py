@@ -71,7 +71,6 @@ def change_param(list_obj):
     print("Values inside the function: ", list_obj)
     return
 
-
 # Call change_param function
 list_obj = [10, 20, 30]
 change_param(list_obj)

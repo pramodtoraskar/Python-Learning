@@ -47,6 +47,13 @@ Discovering and learning the Python Programming.
 8. [Modules_and_Packages](/Module-3/8_Modules_and_Packages.md)
 9. [Package Installation Ways and Import](/Module-3/9_Package_Installation_Ways_and_Import.md)
 
+### Module 4: Introduction to NumPy, Pandas and Matplotlib                                 
+                                                          Duration: 2 hrs
+
+1. [Python for Data analysis & Data Science](/Module-4/1_python_for_da_ds.md)
+2. [NumPy](/Module-4/2_python_numpy.md)
+3. [Pandas](/Module-4/3_python_pandas.md)
+4. [Matplotlib](/Module-4/4_python_matplotlib.md)
 
 ### Bonus Module
 1. [GIT](/Module-6/1_introduction_git.md)
