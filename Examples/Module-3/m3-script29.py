@@ -128,6 +128,7 @@ add('str', 'Hi ', 'Pythonista')
 # ------------------------------------------
 class JustCounter():
     __secret_count = 0
+    norm_count = 0
 
     def count(self):
         self.__secret_count += 1
