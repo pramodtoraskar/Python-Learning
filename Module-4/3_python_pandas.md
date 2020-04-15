@@ -111,7 +111,7 @@
         df = pd.read_excel(r'Examples/Module-4/test_dataframe.xlsx')
         print(df)
         ```
- - Indexing and Selecting (Data structures & index operations in pandas)
+ - Indexing and Selecting
     - Indexing in pandas means simply selecting particular rows and columns of data from a DataFrame. 
     - Indexing could mean selecting all the rows and some of the columns, some of the rows and all of the columns, or some of each of the rows and columns. 
     - Indexing can also be known as Subset Selection.
@@ -200,6 +200,7 @@
     - Series and Indexes are equipped with a set of string processing methods that make it easy to operate on each 
       element of the array.
     - Perhaps most importantly, these methods exclude missing/NA values automatically.
+
     - Update Casing [Lowercasing and Uppercasing a Data]
         ```python
             import pandas as pd 
@@ -264,10 +265,281 @@
         ```
 
  - Pandas Merging, Joining, and Concatenating
+
     - Concatenating DataFrame
-    - Merging DataFrame
-    - Joining DataFrame
- - Missing Data 
+        - We use .concat() function this function concat a dataframe and returns a new dataframe
+        ```python
+            import pandas as pd 
+                 
+            # Define a dictionary containing employee data  
+            emp_obj_1 = {'Name':['Pravin', 'Rayan', 'Sagar', 'Inder'],
+                          'Age':[27, 24, 22, 32], 
+                          'Address':['Nagpur', 'Kanpur', 'Allahabad', 'Pune'], 
+                          'Qualification':['Msc', 'MA', 'MCA', 'Phd']} 
+
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'Name':['Gaurav', 'Dushyen', 'Sanjeevani', 'Manoranjan'], 
+                          'Age':[17, 14, 12, 52], 
+                          'Address':['Delhi', 'Kota', 'Sangareddy', 'Kannuaj'], 
+                          'Qualification':['Btech', 'B.A', 'Bcom', 'B.hons']}
  
+             # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1,index=[0, 1, 2, 3])
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2, index=[4, 5, 6, 7])
+
+            print(df_obj_1, "\n\n", df_obj_2)
+
+            # Using a .concat() method
+            frames = [df_obj_1, df_obj_2]
+            res_df = pd.concat(frames)
+            print(res_df)           
+        ```
+        - Now we set axes join = inner for intersection of dataframe
+        ```python
+        
+            # Define a dictionary containing employee data 
+            emp_obj_1 = {'Name':['Pravin', 'Rayan', 'Sagar', 'Inder'], 
+                    'Age':[27, 24, 22, 32], 
+                    'Address':['Nagpur', 'Kanpur', 'Allahabad', 'Kannuaj'], 
+                    'Qualification':['Msc', 'MA', 'MCA', 'Phd'],
+                    'Mobile No': [97, 91, 58, 76]} 
+               
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'Name':['Gaurav', 'Dushyen', 'Sanjeevani', 'Manoranjan'], 
+                    'Age':[22, 32, 12, 52], 
+                    'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+                    'Qualification':['MCA', 'Phd', 'Bcom', 'B.hons'],
+                    'Salary':[1000, 2000, 3000, 4000]} 
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1,index=[0, 1, 2, 3])
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2, index=[2, 3, 6, 7]) 
+            
+            print(df_obj_1, "\n\n", df_obj_2)
+            
+            # Applying concat with axes join = 'inner'
+            res_df_2 = pd.concat([df_obj_1, df_obj_2], axis=1, join='inner')
+            res_df_2
+        ```
+        - Now we set axes join = outer for union of dataframe.
+        ```python
+            # Using a .concat for union of dataframe
+            res_df_2 = pd.concat([df_obj_1, df_obj_2], axis=1, sort=False)
+            res_df_2
+        ```
+
+        - Concatenating DataFrame using .append()
+            - To concat a dataframe, we use .append() function this function concatenate along axis=0, namely the index
+        ```python
+        
+            # Define a dictionary containing employee data 
+            emp_obj_1 = {'Name':['Pravin', 'Rayan', 'Sagar', 'Inder'], 
+                    'Age':[27, 24, 22, 32], 
+                    'Address':['Nagpur', 'Kanpur', 'Allahabad', 'Kannuaj'], 
+                    'Qualification':['Msc', 'MA', 'MCA', 'Phd'],
+                    'Mobile No': [97, 91, 58, 76]} 
+               
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'Name':['Gaurav', 'Dushyen', 'Sanjeevani', 'Manoranjan'], 
+                    'Age':[22, 32, 12, 52], 
+                    'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+                    'Qualification':['MCA', 'Phd', 'Bcom', 'B.hons'],
+                    'Salary':[1000, 2000, 3000, 4000]}  
+             
+            # Convert the dictionary into DataFrame
+            df_obj_1 = pd.DataFrame(emp_obj_1,index=[0, 1, 2, 3])
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2, index=[4, 5, 6, 7])
+             
+            print(df_obj_1, "\n\n", df_obj_2) 
+            
+            # Using append function
+             
+            res_df = df_obj_1.append(df_obj_2)
+            res_df
+        ```                        
+        - Concatenating DataFrame with group keys
+        ```python
+            # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1,index=[0, 1, 2, 3])
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2, index=[4, 5, 6, 7])
+             
+            print(df_obj_1, "\n\n", df_obj_2)  
+            
+            # using keys 
+            frames = [df_obj_1, df_obj_2]
+             
+            res_df = pd.concat(frames, keys=['x', 'y'])
+            res_df
+        ```           
+    - Merging DataFrame
+        - Pandas have options for high-performance in-memory merging and joining
+        - It’s a good practice to use keys which have unique values throughout the column to avoid unintended duplication of row values
+        - Pandas provide a single function, merge(), as the entry point for all standard database join operations between DataFrame objects
+        - Four basic ways to handle the join 
+            > inner, left, right, and outer
+        
+        - Merging a dataframe with one unique key combination
+        ```python
+            # Define a dictionary containing employee data 
+            emp_obj_1 = {'key': ['Pravin', 'Rayan', 'Sagar', 'Inder'],
+                     'Name':['Jai', 'Princi', 'Gaurav', 'Anuj'], 
+                     'Age':[27, 24, 22, 32],} 
+               
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'key': ['K0', 'K1', 'K2', 'K3'],
+                     'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+                     'Qualification':['Btech', 'B.A', 'Bcom', 'B.hons']} 
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1)
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_1) 
+              
+             
+            print(df_obj_1, "\n\n", df_obj_2) 
+            
+            # using .merge() function
+            res_df = pd.merge(df_obj_1, df_obj_2, on='key')
+             
+            res_df
+        ```
+        - Merging dataframe using multiple join keys
+        ```python
+            # Define a dictionary containing employee data 
+            emp_obj_1 = {'key': ['K0', 'K1', 'K2', 'K3'],
+                     'key1': ['K0', 'K1', 'K0', 'K1'],
+                     'Name':['Pravin', 'Rayan', 'Sagar', 'Inder'], 
+                    'Age':[27, 24, 22, 32],} 
+               
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'key': ['K0', 'K1', 'K2', 'K3'],
+                     'key1': ['K0', 'K0', 'K0', 'K0'],
+                     'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+                    'Qualification':['Btech', 'B.A', 'Bcom', 'B.hons']} 
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1)
+             
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2) 
+              
+             
+            print(df_obj_1, "\n\n", df_obj_2) 
+            
+            # merging dataframe using multiple keys
+            res_df = pd.merge(df_obj_1, df_obj_1, on=['key', 'key1'])
+             
+            res_df
+        ```
+        - Merging dataframe using how in an argument
+            - We use **how** argument to merge specifies how to determine which keys are to be included in the resulting table
+
+            |MERGE METHOD|JOIN NAME|DESCRIPTION|
+            |---|---|---|
+            |left|LEFT OUTER JOIN|Use keys from left frame only|
+            |right|RIGHT OUTER JOIN|Use keys from right frame only|
+            |outer|FULL OUTER JOIN|Use union of keys from both frames|
+            |inner|INNER JOIN|Use intersection of keys from both frames|                                
+
+        - Now we set how = 'left' in order to use keys from left frame only.
+        ```python
+            # using keys from left frame
+            res_df = pd.merge(df_obj_1, df_obj_1,  how='left', on=['key', 'key1'])
+            res_df
+        ```
+        - Now we set how = 'right' in order to use keys from right frame only.
+        ```python
+            # using keys from left frame
+            res_df = pd.merge(df_obj_1, df_obj_1,  how='right', on=['key', 'key1'])
+            res_df
+        ```
+        - Now we set how = 'outer' in order to get union of keys from dataframes.
+        ```python
+            # using keys from left frame
+            res_df = pd.merge(df_obj_1, df_obj_1,  how='outer', on=['key', 'key1'])
+            res_df
+        ```
+        - Now we set how = 'inner' in order to get intersection of keys from dataframes.
+        ```python
+            # using keys from left frame
+            res_df = pd.merge(df_obj_1, df_obj_1,  how='inner', on=['key', 'key1'])
+            res_df
+        ```
+
+    - Joining DataFrame
+        - To join dataframe, we use **.join()** function this function is used for combining the columns of two potentially 
+        differently-indexed DataFrames into a single result DataFrame
+        
+        ```python
+            # Define a dictionary containing employee data 
+            emp_obj_1 = {'Name':['Pravin', 'Rayan', 'Sagar', 'Inder'], 
+                         'Age':[27, 24, 22, 32]} 
+                
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+                         'Qualification':['MCA', 'Phd', 'Bcom', 'B.hons']} 
+              
+            # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1,index=['K0', 'K1', 'K2', 'K3'])
+              
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2, index=['K0', 'K2', 'K3', 'K4'])
+            
+            
+            print(df_obj_1, "\n\n", df_obj_2)  
+            
+            # joining dataframe
+            res_df_1 = df_obj_1.join(df_obj_2)
+             
+            res_df_1
+        ```
+        - Now we use how = 'outer' in order to get union
+        ```python
+            # getting union
+            res_df_1 = df_obj_1.join(df_obj_2, how='outer')
+             
+            res_df_1
+        ```
+        - Joining dataframe using **on** in an argument
+            - To join dataframes we use on in an argument. join() takes an optional on argument which may be a column 
+            or multiple column names, which specifies that the passed DataFrame is to be aligned on that column in 
+            the DataFrame
+        
+        ```python
+            # Define a dictionary containing employee data 
+            emp_obj_1 = {'Name':['Pravin', 'Rayan', 'Sagar', 'Inder'], 
+                    'Age':[27, 24, 22, 32],
+                    'Key':['K0', 'K1', 'K2', 'K3']} 
+                
+            # Define a dictionary containing employee data 
+            emp_obj_2 = {'Address':['Allahabad', 'Kannuaj', 'Allahabad', 'Kannuaj'], 
+                    'Qualification':['MCA', 'Phd', 'Bcom', 'B.hons']} 
+              
+            # Convert the dictionary into DataFrame  
+            df_obj_1 = pd.DataFrame(emp_obj_1)
+              
+            # Convert the dictionary into DataFrame  
+            df_obj_2 = pd.DataFrame(emp_obj_2, index=['K0', 'K2', 'K3', 'K4'])
+             
+            print(df_obj_1, "\n\n", df_obj_2)
+            
+            # using on argument in join
+            res_df = df_obj_1.join(df_obj_2, on='Key')
+             
+            res_df
+        ```
+    - **Join** and **Merge**
+        - We can use **join** and **merge** to combine 2 dataframes.
+        - The **join** method works best when we are joining dataframes on their indexes (though you can specify another column to join on for the left dataframe).
+        - The **merge** method is more versatile and allows us to specify columns besides the index to join on for both dataframes. If the index gets reset to a counter post merge, we can use set_index to change it back.
 #
 [Main...](https://github.com/ptoraskar/Python-Learning/blob/master/README.md) | [Back...](/Module-4/2_python_numpy.md) | [Next...](/Module-4/4_python_matplotlib.md)
