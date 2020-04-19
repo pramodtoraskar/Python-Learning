@@ -58,12 +58,14 @@ Discovering and learning the Python Programming.
 ### Module 5: Data Manipulations                                 
                                                           Duration: 2 hrs
 
-1. [Basic Functionalities of a Data Object](/Module-5/1_data_manipulation.md)
-2. [Merging of Data Objects](/Module-5/2_mergining_data_objects.md)
-3. [Concatenation of Data Objects](/Module-5/3_concatenation_data_objects.md)
-4. [Type of joins on Data Objects](/Module-5/4_Joins_data_objects.md)
-5. [Exploring a Datasets](/Module-5/5_exploring_dataset.md)
-6. [Analysing a Datasets](/Module-5/6_analysing_dataset.md)
+1. [Basic Functionalities of a Data Object]
+2. [Merging of Data Objects]
+3. [Concatenation of Data Objects]
+4. [Type of joins on Data Objects]
+5. [Exploring a Datasets]
+6. [Analysing a Datasets]
 
+[Examples and Demo](/Examples/Module-5)
+ 
 ### Bonus Module
 1. [GIT](/Module-6/1_introduction_git.md)
