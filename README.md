@@ -55,5 +55,15 @@ Discovering and learning the Python Programming.
 3. [Pandas](/Module-4/3_python_pandas.md)
 4. [Matplotlib](/Module-4/4_python_matplotlib.md)
 
+### Module 5: Data Manipulations                                 
+                                                          Duration: 2 hrs
+
+1. [Basic Functionalities of a Data Object](/Module-5/1_data_manipulation.md)
+2. [Merging of Data Objects](/Module-5/2_mergining_data_objects.md)
+3. [Concatenation of Data Objects](/Module-5/3_concatenation_data_objects.md)
+4. [Type of joins on Data Objects](/Module-5/4_Joins_data_objects.md)
+5. [Exploring a Datasets](/Module-5/5_exploring_dataset.md)
+6. [Analysing a Datasets](/Module-5/6_analysing_dataset.md)
+
 ### Bonus Module
 1. [GIT](/Module-6/1_introduction_git.md)
